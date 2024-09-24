@@ -1,0 +1,80 @@
+a{
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  margin: 10px;
+}
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.souligner:hover{
+  text-decoration: underline;
+}
+.centrerH{
+  display: flex;
+  align-items: center;
+}
+.rechercheImage{
+  width: 40px;
+}
+.recherche{
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  box-shadow: 0px 0px 2px rgb(135, 135, 135);
+  width: 600px;
+  margin: auto;
+  padding-left: 20px;
+}
+.recherche:hover{
+  box-shadow: 0px 1px 2px rgb(135, 135, 135);
+}
+#enhaut{
+  display: flex;
+  justify-content:space-between;
+}
+#connexion{
+  background-color: blue;
+}
+#conexion{
+  background-color: blue;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 22px;
+  text-align: center;
+}
+#google{
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+#input{
+  border: none;
+  width: 440px;
+  height: 40px;
+}
+#sousRecherche{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 50px;
+}
+#rechercheGoogle, #JAiDeLaChance{
+padding: 10px;
+}
+#rechercheGoogle:hover, #JAiDeLaChance:hover{
+  box-shadow: 0px 0px 2px rgb(135, 135, 135);
+}
+#France{
+  margin-left: 10px;
+}
+#enBas{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+
+}
